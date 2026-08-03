@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from heapq import nlargest
 from typing import Any, Callable
 
 from .chunking import _dot
@@ -28,21 +29,43 @@ class EmbeddingStore:
         self._next_index = 0
 
         try:
-            import chromadb  # noqa: F401
+            import chromadb
 
-            # TODO: initialize chromadb client + collection
+            client = chromadb.Client()
+            self._collection = client.get_or_create_collection(name=self._collection_name)
             self._use_chroma = True
         except Exception:
             self._use_chroma = False
             self._collection = None
 
     def _make_record(self, doc: Document) -> dict[str, Any]:
-        # TODO: build a normalized stored record for one document
-        raise NotImplementedError("Implement EmbeddingStore._make_record")
+        record_id = f"{doc.id}::{self._next_index}"
+        self._next_index += 1
+        metadata = dict(doc.metadata)
+        metadata.setdefault("doc_id", doc.id)
+        return {
+            "id": record_id,
+            "content": doc.content,
+            "metadata": metadata,
+            "embedding": self._embedding_fn(doc.content),
+        }
 
     def _search_records(self, query: str, records: list[dict[str, Any]], top_k: int) -> list[dict[str, Any]]:
-        # TODO: run in-memory similarity search over provided records
-        raise NotImplementedError("Implement EmbeddingStore._search_records")
+        if top_k <= 0 or not records:
+            return []
+
+        query_embedding = self._embedding_fn(query)
+        dot = _dot
+        scored = ((dot(query_embedding, record["embedding"]), record) for record in records)
+        return [
+            {
+                "id": record["id"],
+                "content": record["content"],
+                "metadata": record["metadata"],
+                "score": score,
+            }
+            for score, record in nlargest(top_k, scored, key=lambda item: item[0])
+        ]
 
     def add_documents(self, docs: list[Document]) -> None:
         """
