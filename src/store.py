@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from heapq import nlargest
 from typing import Any, Callable
 
@@ -7,12 +8,28 @@ from .chunking import _dot
 from .embeddings import _mock_embed
 from .models import Document
 
+CHROMA_PERSIST_DIR_ENV = "CHROMA_PERSIST_DIR"
+CHROMA_SCALARS = (str, int, float, bool)
+
+
+def _chroma_safe(metadata: dict[str, Any]) -> dict[str, Any]:
+    """Ép metadata về kiểu Chroma chấp nhận (str/int/float/bool/None).
+
+    Front matter `retrieved_at: 2026-08-03` được PyYAML parse thành `datetime.date`,
+    Chroma từ chối kiểu này. Chỉ ép ở nhánh Chroma để bản in-memory giữ nguyên giá trị.
+    """
+    return {
+        key: value if value is None or isinstance(value, CHROMA_SCALARS) else str(value)
+        for key, value in metadata.items()
+    }
+
 
 class EmbeddingStore:
     """
     A vector store for text chunks.
 
-    Tries to use ChromaDB if available; falls back to an in-memory store.
+    Uses a persistent ChromaDB collection when CHROMA_PERSIST_DIR is set and the
+    package is installed; otherwise falls back to an in-memory store.
     The embedding_fn parameter allows injection of mock embeddings for tests.
     """
 
@@ -28,15 +45,26 @@ class EmbeddingStore:
         self._collection = None
         self._next_index = 0
 
-        try:
-            import chromadb
+        # Chỉ bật Chroma khi người dùng CHỦ ĐỘNG đặt CHROMA_PERSIST_DIR.
+        # Bật tự động theo "có cài gói hay không" sẽ làm collection sống dai giữa
+        # các lần chạy, khiến test (vốn tái dùng tên collection) nhìn thấy dữ liệu
+        # của lần trước và fail.
+        persist_dir = os.getenv(CHROMA_PERSIST_DIR_ENV, "").strip()
+        if persist_dir:
+            try:
+                import chromadb
 
-            client = chromadb.Client()
-            self._collection = client.get_or_create_collection(name=self._collection_name)
-            self._use_chroma = True
-        except Exception:
-            self._use_chroma = False
-            self._collection = None
+                client = chromadb.PersistentClient(path=persist_dir)
+                # Chroma mặc định dùng khoảng cách L2; ép sang cosine để `score`
+                # cùng thang đo với nhánh in-memory (compute_similarity).
+                self._collection = client.get_or_create_collection(
+                    name=self._collection_name,
+                    metadata={"hnsw:space": "cosine"},
+                )
+                self._use_chroma = True
+            except Exception:
+                self._use_chroma = False
+                self._collection = None
 
     def _make_record(self, doc: Document) -> dict[str, Any]:
         record_id = f"{doc.id}::{self._next_index}"
@@ -79,10 +107,12 @@ class EmbeddingStore:
             return
 
         if self._use_chroma:
-            self._collection.add(
+            # upsert chứ không add: collection đã persist nên chạy lại ingest sẽ
+            # gặp lại đúng các id cũ; `add` sẽ báo trùng id, `upsert` thì ghi đè.
+            self._collection.upsert(
                 ids=[record["id"] for record in records],
                 documents=[record["content"] for record in records],
-                metadatas=[record["metadata"] for record in records],
+                metadatas=[_chroma_safe(record["metadata"]) for record in records],
                 embeddings=[record["embedding"] for record in records],
             )
         else:
@@ -109,7 +139,8 @@ class EmbeddingStore:
                     "content": result["documents"][0][i],
                     "metadata": result["metadatas"][0][i],
                     # Chroma uses a distance where lower is more similar.
-                    "score": -result["distances"][0][i],
+                    # cosine space: distance = 1 - similarity, nên đảo ngược lại.
+                    "score": 1.0 - result["distances"][0][i],
                 }
                 for i in range(len(result["ids"][0]))
             ]
@@ -143,7 +174,8 @@ class EmbeddingStore:
                     "id": result["ids"][0][i],
                     "content": result["documents"][0][i],
                     "metadata": result["metadatas"][0][i],
-                    "score": -result["distances"][0][i],
+                    # cosine space: distance = 1 - similarity, nên đảo ngược lại.
+                    "score": 1.0 - result["distances"][0][i],
                 }
                 for i in range(len(result["ids"][0]))
             ]

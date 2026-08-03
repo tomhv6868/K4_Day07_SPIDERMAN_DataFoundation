@@ -80,9 +80,14 @@ class Backend:
         if strategy not in CHUNKERS:
             raise HTTPException(400, f"strategy không hợp lệ: {strategy}")
         if strategy not in self.stores:
+            embedder = self.embedder_ready()
+            # Gắn tên backend vào collection: vector của mỗi model có số chiều khác
+            # nhau (MiniLM 384, OpenAI 1536). Nếu Chroma đang persist mà dùng chung
+            # tên, đổi provider sẽ đâm vào collection cũ và lỗi lệch chiều.
+            tag = re.sub(r"[^a-z0-9]+", "-", self.backend_name.lower()).strip("-")[-24:]
             self.stores[strategy] = build_knowledge_base(
-                DATA_DIR, embedding_fn=self.embedder_ready(),
-                chunker=CHUNKERS[strategy](), collection_name=f"demo_{strategy}",
+                DATA_DIR, embedding_fn=embedder,
+                chunker=CHUNKERS[strategy](), collection_name=f"demo_{strategy}_{tag}",
             )
         return self.stores[strategy]
 
