@@ -3,13 +3,33 @@ __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
 
 # Environment
 .env
 .env.local
+.env.*.local
+
+# Cache của embedding backend (xem .env.example: HF_HOME, SENTENCE_TRANSFORMERS_HOME)
+.hf-cache/
+.sentence-transformers/
+
+# ChromaDB persistence (CHROMA_PERSIST_DIR trong .env)
+chroma_data/
+
+# Frontend demo (web/)
+web/node_modules/
+web/.next/
+web/out/
+web/.env.local
+web/next-env.d.ts
+web/*.tsbuildinfo
 
 # OS
 .DS_Store
+Thumbs.db
 
 # IDE
 .vscode/
@@ -17,3 +37,6 @@ __pycache__/
 .omx/
 .venv/
 src_w_solution/
+
+# Claude Code: giữ launch.json để cả nhóm chạy được preview, bỏ cấu hình cá nhân
+.claude/settings.local.json
