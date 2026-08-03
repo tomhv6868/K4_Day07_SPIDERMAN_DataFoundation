@@ -1,13 +1,12 @@
 # Báo Cáo Nhóm — Lab 7: Embedding & Vector Store
 
-**Nhóm:** [SPIDERMAN]
-**Thành viên:** [
-Nguyễn Quý Dương - 2A202601642  
-Trần Văn Ngọc - 2A202601512 - TrNgoc2301
-Hoàng Công Thành - 2A202601662 - stephHoang30
-Nguyễn Hoàng Bảo Minh - 2A202601626 - minhmap123
-Hồ Văn Tâm - 2A202601542 - tomhv6868
-]
+**Nhóm:** SPIDERMAN  
+**Thành viên:**   
+Nguyễn Quý Dương - 2A202601642 - Duong-1211  
+Trần Văn Ngọc - 2A202601512 - TrNgoc2301  
+Hoàng Công Thành - 2A202601662 - stephHoang30  
+Nguyễn Hoàng Bảo Minh - 2A202601626 - minhmap123   
+Hồ Văn Tâm - 2A202601542 - tomhv6868  
 **Ngày:** [03-08-2026]
 
 > **Nộp 1 bản / nhóm.** Phần cá nhân (hướng tiếp cận, kết quả riêng, dự đoán…) mỗi thành viên nộp riêng trong `REPORT_CANHAN.md`. Chi tiết thang điểm: `docs/SCORING.md`.

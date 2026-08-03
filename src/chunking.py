@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import math
 import re
-
+import numpy as np
 
 class FixedSizeChunker:
     """
@@ -172,19 +172,10 @@ def compute_similarity(vec_a: list[float], vec_b: list[float]) -> float:
 
     Returns 0.0 if either vector has zero magnitude.
     """
-    dot_product = 0.0
-    norm_a = 0.0
-    norm_b = 0.0
+    a = np.asarray(vec_a)
+    b = np.asarray(vec_b)
 
-    for value_a, value_b in zip(vec_a, vec_b):
-        dot_product += value_a * value_b
-        norm_a += value_a * value_a
-        norm_b += value_b * value_b
-
-    if norm_a == 0.0 or norm_b == 0.0:
-        return 0.0
-
-    return dot_product / (math.sqrt(norm_a) * math.sqrt(norm_b))
+    return 0 if np.sum(a**2) == 0 or np.sum(b**2) == 0 else (a @ b)/(np.sqrt(np.sum(a**2))*np.sqrt(np.sum(b**2)))
 
 
 class ChunkingStrategyComparator:
