@@ -1,0 +1,132 @@
+---
+doc_id: moit-trach-nhiem-ban-le-hang-tieu-dung
+title: Một số trách nhiệm quan trọng về bảo vệ quyền lợi người tiêu dùng của tổ chức cá nhân phân phối bán lẻ
+source_url: https://moit.gov.vn/tin-tuc/bao-chi-voi-nguoi-dan/mot-so-trach-nhiem-quan-trong-ve-bao-ve-quyen-loi-nguoi-tieu-dung-cua-cac-to-chuc-ca-nhan-phan-phoi-ban-le-hang-tieu-dun.html
+retrieved_at: 2026-08-03
+document_version: 2024-08-20
+customer_role: seller
+category: seller-obligations
+language: vi
+---
+
+# Một số trách nhiệm quan trọng về bảo vệ quyền lợi người tiêu dùng của tổ chức cá nhân phân phối bán lẻ
+
+Từ ngày 01 tháng 7 năm 2023, Luật Bảo vệ quyền lợi người tiêu dùng năm 2023 đã chính thức có hiệu lực. Trên cơ sở kế thừa các giá trị tích cực của Luật Bảo vệ quyền lợi người tiêu dùng năm 2010, để đảm bảo tính hiệu quả của công tác bảo vệ quyền lợi chính đáng của người tiêu dùng trong bối cảnh mới, Luật Bảo vệ quyền lợi người tiêu dùng năm 2023 được bổ sung và sửa đổi nhiều quy định mới.
+
+Việt Nam đang hội nhập ngày càng mạnh mẽ cả về chiều rộng và chiều sâu với kinh tế khu vực và thế giới. Các chủ thể kinh tế của Việt Nam đang trực tiếp tham gia vào chuỗi cung ứng toàn cầu của nhiều nhóm ngành hàng, từng bước khẳng định được vị thế của mình. Hoạt động bán lẻ ở Việt Nam - một khâu trong chuỗi cung ứng toàn cầu – những năm gần đây chứng kiến sự phát triển vượt bậc và đang từng bước giữ một vị trí quan trọng trong chuỗi cung ứng hàng hóa từ nhà sản xuất đến người tiêu dùng. Các doanh nghiệp bán lẻ được tổ chức dưới nhiều hình thức và quy mô khác nhau, từ các cửa hàng nhỏ lẻ đến những đại siêu thị quy mô lớn. Dưới góc độ pháp luật bảo vệ quyền lợi người tiêu dùng, bài viết dưới đây sẽ cung cấp những thông tin tổng quan nhất về nghĩa vụ bảo vệ quyền lợi người tiêu dùng trong các giao dịch tiêu dùng tại các chuỗi phân phối, bán lẻ.
+
+1. Bán lẻ và vấn đề vi phạm quyền lợi người tiêu dùng tại Việt Nam
+
+Các kênh phân phối, bán lẻ hàng tiêu dùng thường bao gồm: Người sản xuất (là người trực tiếp sản xuất ra sản phẩm, hàng hóa, đôi khi người sản xuất cũng là người bán sản phẩm, hàng hóa tới tay người tiêu dùng mà không qua bất kỳ kênh phân phối trung gian nào) và Người trung gian (là những người tham gia vào quá trình phân phối sản phẩm, hàng hóa tới người tiêu dùng. Người trung gian có thể gồm đại lý môi giới; người bán buôn; người bán lẻ như cửa hàng tự chọn, cửa hàng tiện lợi, bách hóa tổng hợp, cửa hàng tạp hóa, cửa hàng đại hạ giá, cửa hàng chuyên doanh, cửa hàng giới thiệu sản phẩm của công ty, hợp tác xã tiêu thụ; bán lẻ thông qua hệ thống chợ truyền thống, siêu thị, siêu thị mini, siêu thị chuyên doanh và siêu thị tổng hợp, đại siêu thị, trung tâm thương mại…
+
+Cho đến nay tại Việt Nam chưa có tài liệu chính thức nào đưa ra khái niệm của hệ thống bán lẻ hiện đại. Tuy nhiên dựa vào tính chất của kênh phân phối bán lẻ có thể chia ra làm 2 loại hệ thống bán lẻ là hệ thống bán lẻ truyền thống và bán lẻ hiện đại. Hệ thống bán lẻ hiện đại có mô hình tiêu biểu là cửa hàng tiện dụng (convenience store), siêu thị nhỏ (mini-super), siêu thị (supermarket), đại siêu thị (hypermarket), cửa hàng bách hoá lớn (department store), cửa hàng bách hoá thông thường, cửa hàng đại hạ giá (hard discounter), trung tâm thương mại (commercial center, shopping mall), … Như vậy hệ thống bán lẻ hiện đại khác biệt với hệ thống bán lẻ truyền thống ở phương pháp quản lý kinh doanh, cách bài trí cửa hàng, phong cách phục vụ.
+
+Bên cạnh đó, một chủ thể quan trọng, trung tâm và quyết định sự vận hành, phát triển lành mạnh của thị trường bán lẻ là người tiêu dùng. Theo cách hiểu thông thường, người tiêu dùng là người cuối cùng nhận được hàng hóa đó với mục đích để tiêu dùng; theo quy định của Luật Bảo vệ quyền lợi người tiêu dùng 2023, người tiêu dùng là người mua, sử dụng sản phẩm, hàng hóa, dịch vụ cho mục đích tiêu dùng, sinh hoạt của cá nhân, gia đình, cơ quan, tổ chức và không vì mục đích thương mại. Chúng ta cần xác định rõ sự khác nhau và phạm vi của người tiêu dùng theo quy định pháp luật để đảm bảo việc áp dụng, vận dụng luật được đúng và hiệu quả.
+
+Bên cạnh việc đảm bảo cung cấp sản phẩm, hàng hóa, dịch vụ theo đúng tiêu chuẩn đã công bố, thời gian, địa điểm, giá cả niêm yết, theo đúng quảng cáo, cam kết, thì nhà bán lẻ cần đảm bảo các điều kiện vận chuyển, bảo hành, giao hàng, … theo đề nghị của người tiêu dùng.
+
+Theo số liệu từ Ủy ban Cạnh tranh Quốc gia, Bộ Công Thương, năm 2023, Ủy ban đã tiếp nhận tổng số 1.567 đơn, thư phản ánh, yêu cầu, kiến nghị, khiếu nại của người tiêu dùng, thông qua các phương thức chủ yếu như: thư điện tử (tại địa chỉ: khieunai@bvntd.gov.vn ); hệ thống tiếp nhận yêu cầu, kiến nghị, khiếu nại trực tuyến (tại địa chỉ: http://khieunai.bvntd.gov.vn ); đường bưu điện, công văn; Cổng dịch vụ công quốc gia và do người tiêu dùng nộp trực tiếp tại Văn phòng Ủy ban.
+
+Biểu đồ: Thống kê số lượng đơn, thư phản ánh của người tiêu dùng phân theo nguồn trong năm 2023
+
+Trong tổng số 1.567 đơn, thư được tiếp nhận, các lĩnh vực kinh doanh hàng hóa, dịch vụ chủ yếu bị phản ánh, khiếu nại bao gồm: Bất động sản nhà ở, chung cư, kinh doanh quyền sở hữu kỳ nghỉ (chiếm khoảng 49,9%); dịch vụ bảo hiểm nhân thọ (chiếm khoảng 12,9%); thương mại điện tử (chiếm khoảng 5,5%); dịch vụ vận chuyển bằng đường hàng không (chiếm khoảng 4,4%); giáo dục, giải trí (chiếm khoảng 4,3%); điện tử gia dụng (chiếm khoảng 3,9%); dịch vụ thông tin di động mặt đất (chiếm khoảng 3,6%). Bên cạnh đó, xuất hiện thêm một số lĩnh vực, kinh doanh hàng hóa bị phản ánh, khiếu nại như: Dịch vụ ngân hàng và dịch vụ tài chính khác (chiếm khoảng 3,06%); dịch vụ vận tải, phương tiện vận chuyển, phương tiện đi lại và dịch vụ bưu chính, vận tải hàng hóa (chiếm khoảng 3,12%). Một số lĩnh vực kinh doanh hàng hóa, dịch vụ khác bị phản ánh, khiếu nại với số lượng thấp hơn như: thiết bị văn phòng; văn hóa-nghệ thuật; điện sinh hoạt; nước sinh hoạt; dịch vụ truy nhập internet; nội thất, ngoại thất; thuốc, dược phẩm, thiết bị y tế; mỹ phẩm; thời trang, trang sức (chiếm khoảng 1,5%), ….
+
+Biểu đồ: Thống kê số lượng đơn, thư phản ánh của người tiêu dùng phân theo nhóm ngành hàng hóa, dịch vụ trong năm 2023
+
+2. Một số trách nhiệm quan trọng về bảo vệ quyền lợi người tiêu dùng của tổ chức, cá nhân bán lẻ
+
+Với những đặc điểm trên, khi thực hiện giao dịch tiêu dùng với người tiêu dùng tại các chuỗi phân phối, bán lẻ, tổ chức, cá nhân kinh doanh sản phẩm, hàng hóa, dịch vụ cần lưu ý thực hiện một số nghĩa vụ, trách nhiệm bảo vệ quyền lợi người tiêu dùng sau đây:
+
+Trách nhiệm bảo đảm an toàn, đo lường, số lượng, khối lượng, chất lượng, công dụng sản phẩm, hàng hóa, dịch vụ bán, cung cấp cho người tiêu dùng
+
+Theo Điều 14 Luật Bảo vệ quyền lợi người tiêu dùng năm 2023, tổ chức, cá nhân kinh doanh có trách nhiệm:
+
+- Bảo đảm an toàn, đo lường, số lượng, khối lượng, chất lượng, công dụng sản phẩm, hàng hóa, dịch vụ bán, cung cấp cho người tiêu dùng theo đúng nội dung đã đăng ký, thông báo, công bố, niêm yết, quảng cáo, giới thiệu, giao kết, cam kết hoặc theo quy định của pháp luật.
+
+- Phải cảnh báo sản phẩm, hàng hóa, dịch vụ có khả năng gây mất an toàn, ảnh hưởng xấu đến tính mạng, sức khỏe, tài sản của người tiêu dùng và thông báo về các biện pháp phòng ngừa theo quy định của pháp luật.
+
+Trách nhiệm bảo vệ thông tin người tiêu dùng
+
+Trong các giao dịch tiêu dùng tại các kênh khác nhau trong hệ thống bán lẻ hiện đại, trách nhiệm bảo vệ thông tin người tiêu dùng được coi là một trong những trách nhiệm quan trọng, đặc biệt trong bối cảnh giao dịch tiêu dùng trên không gian mạng phát triển mãnh mẽ như hiện nay.
+
+Điều 15 Luật Bảo vệ quyền lợi người tiêu dùng năm 2023 quy định trách nhiệm bảo vệ thông tin của người tiêu dùng. Theo đó:
+
+1. Tổ chức, cá nhân kinh doanh tự mình hoặc ủy quyền, thuê bên thứ ba thực hiện việc thu thập, lưu trữ, sử dụng, chỉnh sửa, cập nhật, hủy bỏ thông tin của người tiêu dùng phải bảo đảm an toàn, an ninh thông tin của người tiêu dùng theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+
+2. Trường hợp tổ chức, cá nhân kinh doanh ủy quyền hoặc thuê bên thứ ba thực hiện việc thu thập, lưu trữ, sử dụng, chỉnh sửa, cập nhật, hủy bỏ thông tin của người tiêu dùng thi phải được sự đồng ý của người tiêu dùng. Việc ủy quyền hoặc thuê bên thứ ba phải được thực hiện bằng văn bản, trong đó quy định rõ phạm vi, trách nhiệm của mỗi bên trong việc bảo vệ thông tin của người tiêu dùng theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+
+3. Trường hợp người tiêu dùng thực hiện giao dịch thông qua bên thứ ba thì bên thứ ba có trách nhiệm bảo vệ thông tin của người tiêu dùng theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+
+Bên cạnh đó, tổ chức, cá nhân kinh doanh có trách nhiệm xây dựng quy tắc bảo vệ thông tin của người tiêu dùng. Cụ thể, trừ trường hợp pháp luật có quy định khác, tổ chức, cá nhân kinh doanh thu thập, lưu trữ, sử dụng thông tin của người tiêu dùng phải xây dựng quy tắc bảo vệ thông tin áp dụng chung cho người tiêu dùng với các nội dung sau đây:
+
+a) Mục đích thu thập thông tin;
+
+b) Phạm vi sử dụng thông tin;
+
+c) Thời hạn lưu trữ thông tin;
+
+d) Biện pháp bảo vệ thông tin, bảo đảm an toàn thông tin của người tiêu dùng.
+
+Các quy tắc này phải được công khai theo hình thức niêm yết ở vị trí dễ nhìn thấy tại trụ sở, địa điểm kinh doanh và đăng tải trên trang thông tin điện tử, phần mềm ứng dụng (nếu có), tạo điều kiện để người tiêu dùng tiếp cận trước hoặc tại thời điểm thu thập thông tin.
+
+Ngoài ra, điều 17, 18 và 19 Luật Bảo vệ quyền lợi người tiêu dùng năm 2023 cũng quy định cụ thể các trách nhiệm thông báo khi thu thập, sử dụng thông tin của người tiêu dùng và trách nhiệm bảo đảm an toàn, an ninh thông tin của người tiêu dùng. Theo đó, tổ chức, cá nhân kinh doanh phải bảo đảm an toàn, an ninh thông tin của người tiêu dùng mà họ thu thập, lưu trữ, sử dụng và có biện pháp ngăn ngừa các hành vi sau đây:
+
+a) Đánh cắp hoặc tiếp cận thông tin trái phép;
+
+b) Sử dụng thông tin trái phép;
+
+c) Chỉnh sửa, cập nhật, hủy bỏ thông tin trái phép.
+
+Trong trường hợp phát sinh phản ánh, yêu cầu, khiếu nại của người tiêu dùng liên quan đến việc thông tin bị thu thập trái phép, sử dụng sai mục đích, phạm vi đã thông báo, tổ chức, cá nhân kinh doanh phải có trách nhiệm tiếp nhận và giải quyết.
+
+Trách nhiệm giải quyết tranh chấp người tiêu dùng
+
+Do tính chất là các giao dịch thường nhật, tần suất lớn và liên quan đến mọi loại hàng hóa, sản phẩm, dịch vụ, giao dịch tiêu dùng trong hệ thống phân phối, bán lẻ là loại giao dịch tiềm ẩn nhiều nguy cơ phát sinh yêu cầu, phản ánh, khiếu nại của người tiêu dùng. Chính vì lẽ đó, tổ chức, cá nhân kinh doanh trong ngành bán lẻ cần đặc biệt lưu ý tới trách nhiệm giải quyết tranh chấp với người tiêu dùng.
+
+Theo quy định tại Luật Bảo vệ quyền lợi người tiêu dùng năm 2023, trong trường hợp người tiêu dùng gửi yêu cầu thương lượng và thông tin, tài liệu liên quan (nếu có), tổ chức, cá nhân tiếp nhận phải có trách nhiệm tiếp nhận, tiến hành thương lượng với người tiêu dùng trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu và thông báo bằng văn bản kết quả thương lượng đến cơ quan quản lý nhà nước về bảo vệ quyền lợi người tiêu dùng, tổ chức xã hội tham gia bảo vệ quyền lợi người tiêu dùng trong thời hạn 05 ngày làm việc kể từ ngày kết thúc thương lượng. Trường hợp từ chối yêu cầu thương lượng của người tiêu dùng, trong thời hạn 07 ngày làm việc kể từ ngày nhận được yêu cầu thương lượng, tổ chức, cá nhân kinh doanh phải trả lời bằng văn bản và nêu rõ lý do.
+
+Trách nhiệm bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện
+
+Đối với các sản phẩm, hàng hóa, linh kiện, phụ kiện được mua trong các giao dịch tiêu dùng trên các kênh phân phối, bán lẻ, tổ chức, cá nhân kinh doanh cần thực hiện trách nhiệm bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện cho người tiêu dùng theo thỏa thuận giữa hai bên hoặc bắt buộc bảo hành theo quy định của pháp luật.
+
+Trường hợp được bảo hành, tổ chức, cá nhân kinh doanh có trách nhiệm:
+
+a) Công bố công khai chính sách bảo hành. Chính sách bảo hành bao gồm các nội dung chủ yếu sau đây: thời điểm, thời hạn áp dụng, nội dung, phạm vi, phương thức thực hiện bảo hành và các trường hợp loại trừ trách nhiệm bảo hành của tổ chức, cá nhân kinh doanh;
+
+b) Thực hiện chính xác, đầy đủ trách nhiệm bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện do mình cung cấp;
+
+c) Cung cấp cho người tiêu dùng văn bản tiếp nhận bảo hành hoặc hình thức tiếp nhận bảo hành tương đương khác, trong đó ghi rõ thời gian thực hiện bảo hành. Thời gian thực hiện bảo hành không tính vào thời hạn bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện.
+
+Trường hợp tổ chức, cá nhân kinh doanh thay thế linh kiện, phụ kiện thì thời hạn bảo hành linh kiện, phụ kiện đó được tính lại từ thời điểm thay thế linh kiện, phụ kiện.
+
+Trường hợp tổ chức, cá nhân kinh doanh đổi sản phẩm, hàng hóa mới thì thời hạn bảo hành sản phẩm, hàng hóa đó được tính lại từ thời điểm đổi mới sản phẩm, hàng hóa;
+
+d) Cung cấp cho người tiêu dùng sản phẩm, hàng hóa, linh kiện, phụ kiện tương tự để sử dụng tạm thời hoặc có hình thức giải quyết phù hợp theo thỏa thuận giữa người tiêu dùng và tổ chức, cá nhân kinh doanh trong thời gian thực hiện bảo hành;
+
+đ) Đổi sản phẩm, hàng hóa, linh kiện, phụ kiện mới tương tự hoặc thu hồi sản phẩm, hàng hóa, linh kiện, phụ kiện và trả lại tiền cho người tiêu dùng trong trường hợp hết thời gian thực hiện bảo hành mà không sửa chữa được hoặc không khắc phục được lỗi hoặc trong trường hợp đã thực hiện bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện từ 03 lần trở lên trong thời hạn bảo hành mà vẫn không khắc phục được lỗi;
+
+e) Chịu chi phí sửa chữa, vận chuyển sản phẩm, hàng hóa, linh kiện, phụ kiện từ nơi ở của người tiêu dùng hoặc nơi sử dụng sản phẩm, hàng hóa, linh kiện, phụ kiện đến nơi bảo hành và từ nơi bảo hành đến nơi ở của người tiêu dùng hoặc nơi sử dụng sản phẩm, hàng hóa, linh kiện, phụ kiện;
+
+g) Chịu trách nhiệm về việc bảo hành sản phẩm, hàng hóa, linh kiện, phụ kiện cho người tiêu dùng cả trong trường hợp ủy quyền hoặc thuê tổ chức, cá nhân khác thực hiện việc bảo hành.
+
+Một số hành vi bị nghiêm cấm trong bảo vệ quyền lợi người tiêu dùng trong các giao dịch bán lẻ
+
+Theo Điều 10 Luật Bảo vệ quyền lợi người tiêu dùng, trong các giao dịch bán lẻ, tổ chức, cá nhân kinh doanh bị nghiêm cấm thực hiện một số hành vi, trong đó có:
+
+a) Lừa dối hoặc gây nhầm lẫn cho người tiêu dùng thông qua việc cung cấp thông tin sai lệch, không đầy đủ, không chính xác về một trong các nội dung sau đây: sản phẩm, hàng hóa, dịch vụ mà tổ chức, cá nhân kinh doanh bán, cung cấp;
+
+b) Quấy rối người tiêu dùng thông qua hành vi tiếp xúc trực tiếp hoặc gián tiếp trái với ý muốn của người tiêu dùng để giới thiệu về sản phẩm, hàng hóa, dịch vụ, tổ chức, cá nhân kinh doanh, đề nghị giao kết hợp đồng hoặc có hành vi khác gây cản trở công việc, sinh hoạt bình thường của người tiêu dùng;
+
+c) Ép buộc người tiêu dùng mua sản phẩm, hàng hóa, dịch vụ trái với ý muốn của người tiêu dùng thông qua việc thực hiện hành vi dùng vũ lực, đe dọa dùng vũ lực hoặc hành vi khác có tính chất tương tự;
+
+d) Ép buộc người tiêu dùng thanh toán cho sản phẩm, hàng hóa, dịch vụ đã cung cấp mà không có thỏa thuận trước với người tiêu dùng;
+
+đ) Không đền bù, trả lại tiền hoặc đổi lại sản phẩm, hàng hóa, dịch vụ cho người tiêu dùng do nhầm lẫn của tổ chức, cá nhân kinh doanh;
+
+e) Không đền bù, trả lại tiền hoặc đổi lại sản phẩm, hàng hóa, dịch vụ cho người tiêu dùng do sản phẩm, hàng hóa, dịch vụ không đúng với đăng ký, thông báo, công bố, niêm yết, quảng cáo, giới thiệu, giao kết, cam kết của tổ chức, cá nhân kinh doanh;
+
+g) Đánh tráo, gian lận sản phẩm, hàng hóa, dịch vụ khi giao hàng, cung cấp dịch vụ cho người tiêu dùng;
+
+i) Ngăn cản người tiêu dùng kiểm tra về sản phẩm, hàng hóa, dịch vụ, trừ trường hợp pháp luật có quy định khác;
+
+Bên cạnh các trách nhiệm, nghĩa vụ nêu trên, tổ chức, cá nhân kinh doanh trong hệ thống phân phối, bán lẻ phải tuân thủ các trách nhiệm, nghĩa vụ khác về bảo vệ quyền lợi người tiêu dùng như các tổ chức, cá nhân kinh doanh thông thường. Việc tuân thủ các trách nhiệm, nghĩa vụ này sẽ giúp quyền lợi người tiêu dùng được bảo vệ một cách tối đa, đặc biệt trong bối cảnh các hành vi xâm hại quyền lợi người tiêu dùng ở nước ta đang có những diễn biến ngày càng phức tạp, với phạm vi ngày càng rộng và hình thức ngày một đa dạng, tinh vi hơn.
