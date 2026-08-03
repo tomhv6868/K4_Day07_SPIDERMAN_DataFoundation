@@ -17,11 +17,14 @@ class KnowledgeBaseAgent:
         self.store = store
         self.llm_fn = llm_fn
 
-    def answer(self, question: str, top_k: int = 3) -> str:
+    def answer(self, question: str, top_k: int = 3, metadata_filter: dict | None = None) -> str:
         if self.store.get_collection_size() == 0:
             return "Cơ sở tri thức đang trống. Không có ngữ cảnh để trả lời câu hỏi này."
 
-        results = self.store.search(question, top_k=top_k)
+        if metadata_filter:
+            results = self.store.search_with_filter(question, top_k=top_k, metadata_filter=metadata_filter)
+        else:
+            results = self.store.search(question, top_k=top_k)
         if not results:
             return "Không tìm thấy ngữ cảnh liên quan. Không thể trả lời câu hỏi này từ cơ sở tri thức."
 
